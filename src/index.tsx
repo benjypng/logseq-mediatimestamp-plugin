@@ -1,13 +1,9 @@
 import '@logseq/libs'
 
-import { handlePopup } from './handle-popup'
 import { settings } from './settings'
 
 const main = async () => {
   await logseq.UI.showMsg('logseq-mediatimestamp-plugin loaded')
-
-  // Used to handle any popups
-  handlePopup()
 
   const getVideoEl = async (uuid: string): Promise<HTMLVideoElement | null> => {
     const blk = await logseq.Editor.getBlock(uuid)
