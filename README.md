@@ -1,3 +1,5 @@
+> This README was generated entirely by [Jules](https://jules.google.com).
+
 # Logseq Media Timestamp Plugin
 
 ![Logseq](https://img.shields.io/badge/Logseq-Plugin-blue?style=flat-square)
